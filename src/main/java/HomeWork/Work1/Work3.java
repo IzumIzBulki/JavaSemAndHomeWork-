@@ -15,7 +15,7 @@ public class Work3 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Введите число: ");
         int number = sc.nextInt();
-        int[] array = {3, 3, 2, 3, 2, 2, 1, 5, 6, 7, 7, 8, 3};
+        int[] array = {3, 3, 2, 3, 2, 2, 1, 5, 6, 7, 7, 8, 3, 2, 3, 4};
         for (int i = 0; i < array.length/2; i++) {
             if (array[i] == number) {
                 int transfer = array[i];
