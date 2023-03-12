@@ -9,17 +9,22 @@ public class Work2 {
     public static void main(String[] args) throws IOException {
         createFileTest(createStringTest());
     }
-    public static String createStringTest() {
-        String str = "Test";
-        for (int i = 0; i < 99; i++) {
-            str += "Test";
+    public static StringBuilder createStringTest() {
+        StringBuilder str = new StringBuilder();
+        for (int i = 0; i < 100; i++) {
+            if (i%10 == 0) {
+                str.append("\n"+(i+1)+"Test ");
+            }else{
+                str.append((i+1)+"Test ");
+            }
+
         }
         System.out.println("Создание строки завершено!");
         return str;
     }
-    public static void createFileTest(String test) throws IOException {
+    public static void createFileTest(StringBuilder test) throws IOException {
         FileWriter fw = new FileWriter( "fileTest.txt" );
-        fw.write(test);
+        fw.write(String.valueOf(test));
         fw.close();
         System.out.println("Строка добавлена в файл");
     }
