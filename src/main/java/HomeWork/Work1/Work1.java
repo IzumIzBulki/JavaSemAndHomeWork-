@@ -5,7 +5,8 @@
 package HomeWork.Work1;
 import java.util.Scanner;
 import java.util.Arrays;
-
+import static java.lang.Integer.MAX_VALUE;
+import static java.lang.Integer.MIN_VALUE;
 
 
 public class Work1 {
@@ -15,7 +16,6 @@ public class Work1 {
         System.out.println("");
         System.out.println("второй способ решения:");
         arr2();
-
     }
     static void arr1() {
         int[] arr = {5, 2, 10, 3};
@@ -23,8 +23,8 @@ public class Work1 {
         System.out.print(Arrays.stream(arr).min());
     }
     static void arr2() {
-        int max = 0;
-        int min = 99999;
+        int max = MIN_VALUE;
+        int min = MAX_VALUE;
         Scanner sc = new Scanner(System.in);
         System.out.print("Введите длину массива: ");
         int n = sc.nextInt();
