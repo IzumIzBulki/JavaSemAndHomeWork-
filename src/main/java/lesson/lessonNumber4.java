@@ -68,6 +68,10 @@ public class lessonNumber4 {
 //        System.out.println(stack.pop()); // 1
 
 
+        String string = "qwe~ert~tyu~dfg";
+        String[] parts = string.split("\\~");
+
+
 
 
 
