@@ -40,10 +40,10 @@ public class Program {
         // #endregion
         // #region
 
-        BaseHero hero = new BaseHero(); System.out.println(hero);
-        Magician magician = new Magician(); System.out.println(magician);
-        Priest priest = new Priest(); System.out.println(priest);
-        Druid druid = new Druid(); System.out.println(druid);
+//        BaseHero hero = new BaseHero(); System.out.println(hero);
+//        Magician magician = new Magician(); System.out.println(magician);
+//        Priest priest = new Priest(); System.out.println(priest);
+//        Druid druid = new Druid(); System.out.println(druid);
 
 
 
