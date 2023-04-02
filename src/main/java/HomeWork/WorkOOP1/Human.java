@@ -1,6 +1,6 @@
 package HomeWork.WorkOOP1;
 
-public class Human {
+public abstract class Human {
     private int age;
     private String name;
     private String eyeColor;
@@ -18,7 +18,7 @@ public class Human {
     }
 
 
-    public String info() {
+    public String getInfo() {
         return "Human{" +
                 "age=" + age +
                 ", name='" + name + '\'' +
@@ -26,7 +26,8 @@ public class Human {
                 ", weight=" + weight +
                 ", height=" + height +
                 ", earnings=" + earnings +
-                '}';
+                '}' + "\n" +
+                "Наследник характера = " + this.getClass().getSuperclass().getSimpleName();
     }
 
     public int getAge() {
@@ -76,4 +77,6 @@ public class Human {
     public void setEarnings(int earnings) {
         this.earnings = earnings;
     }
+
+
 }

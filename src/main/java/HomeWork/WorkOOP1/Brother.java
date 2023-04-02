@@ -1,15 +1,14 @@
 package HomeWork.WorkOOP1;
 
-public class Brother extends Human{
+public class Brother extends Dad{
 
-    public Brother(){
-        super(18, "Sergey", "Red", 70, 195, 500);
 
+    public Brother(int age, String name, String eyeColor, int weight, int height, int earnings) {
+        super(age, name, eyeColor, weight, height, earnings);
     }
 
-
-    public String getInfo() {
-        return String.format(super.info() +"\n" + this.getName() +"\n" + this.waiter() +"\n" + this.shooting());
+    public String getInfoBrother() {
+        return String.format(super.getInfo() +"\n" + this.getName() +"\n" + this.waiter() +"\n" + this.shooting());
     }
 
     public String shooting() {
