@@ -1,8 +1,10 @@
 package lesson.OOPsem2;
 
+import lesson.OOPsem22.stat;
+
 public class main {
     public static void main(String[] args) {
-
+        int uId = stat.getAdmin();
         numtest num = new numtest();
         numTest2 num2 = new numTest2();
 
