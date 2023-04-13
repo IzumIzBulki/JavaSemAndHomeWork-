@@ -1,19 +1,19 @@
 package lesson.OOPsem5.Work1;
 
-public class Cat extends Animal {
+public class Dog extends Animal{
 
-    public Cat(String type, String name, String color, String gender, Number age, Number weight, Number health) {
+    public Dog(String type, String name, String color, String gender, Number age, Number weight, Number health) {
         super(type, name, color, gender, age, weight, health);
     }
 
 
 
     @Override
-    public String voice() {return "Mяу, Мяу";}
+    public String voice() {return "Гав, Гав";}
 
     @Override
     public String toString() {
-        return "Cat{" +
+        return "Dog{" +
                 "Порода='" + type + '\'' +
                 ", Кличка='" + name + '\'' +
                 ", Цвет='" + color + '\'' +

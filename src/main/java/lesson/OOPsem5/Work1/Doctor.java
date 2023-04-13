@@ -1,6 +1,6 @@
 package lesson.OOPsem5.Work1;
 
-public class Doctor extends Human implements ActionHuman{
+public class Doctor extends Human {
 
     public Doctor(String name, String status, String gender, Number age) {
         super(name, status, gender, age);
@@ -15,12 +15,8 @@ public class Doctor extends Human implements ActionHuman{
                 ", age=" + age +
                 '}';
     }
-    @Override
-    public String action() {return "Лечит животное";}
 
-//    public boolean examination(Animal animals){
-//        if (animals.getAge() > 10){
-//            return true;
-//        }else return false;
-//    }
+    public static Integer treatment (int x) {return x + (int) Numbers.getR(5);}
+
+
 }
