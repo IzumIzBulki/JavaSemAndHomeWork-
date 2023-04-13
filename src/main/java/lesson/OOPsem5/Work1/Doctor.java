@@ -9,10 +9,10 @@ public class Doctor extends Human {
     @Override
     public String toString() {
         return "Doctor{" +
-                "name='" + name + '\'' +
-                ", status='" + status + '\'' +
-                ", gender='" + gender + '\'' +
-                ", age=" + age +
+                "Тмя='" + name + '\'' +
+                ", Должность='" + status + '\'' +
+                ", Пол='" + gender + '\'' +
+                ", Возраст=" + age +
                 '}';
     }
 

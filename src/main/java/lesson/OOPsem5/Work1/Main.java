@@ -17,6 +17,7 @@ public class Main {
         animal.add(dog);
         animal.add(c);
         human.add(d);
+
         //показать информацию всех зверей
         for (Animal animal2 : animal) {System.out.println(animal2);}
 
