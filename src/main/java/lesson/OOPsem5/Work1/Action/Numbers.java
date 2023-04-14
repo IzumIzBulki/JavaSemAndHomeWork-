@@ -1,4 +1,4 @@
-package lesson.OOPsem5.Work1;
+package lesson.OOPsem5.Work1.Action;
 
 import java.util.Random;
 

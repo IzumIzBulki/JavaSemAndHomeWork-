@@ -1,4 +1,6 @@
-package lesson.OOPsem5.Work1;
+package lesson.OOPsem5.Work1.Human;
+
+
 
 public class Doctor extends Human {
 
@@ -15,8 +17,4 @@ public class Doctor extends Human {
                 ", Возраст=" + age +
                 '}';
     }
-
-    public static Integer treatment (int x) {return x + (int) Numbers.getR(5);}
-
-
 }

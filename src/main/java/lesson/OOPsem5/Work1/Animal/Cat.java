@@ -1,4 +1,6 @@
-package lesson.OOPsem5.Work1;
+package lesson.OOPsem5.Work1.Animal;
+
+
 
 public class Cat extends Animal {
 
@@ -6,8 +8,10 @@ public class Cat extends Animal {
         super(type, name, color, gender, age, weight, health);
     }
 
-
-
+    /**
+     * Перегруженный метод озвучивания голоса животного
+     * @return возвращает голос животного типом String
+     */
     @Override
     public String voice() {return "Mяу, Мяу";}
 

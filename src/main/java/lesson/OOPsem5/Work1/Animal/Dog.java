@@ -1,13 +1,16 @@
-package lesson.OOPsem5.Work1;
+package lesson.OOPsem5.Work1.Animal;
 
-public class Dog extends Animal{
+
+
+public class Dog extends Animal {
 
     public Dog(String type, String name, String color, String gender, Number age, Number weight, Number health) {
         super(type, name, color, gender, age, weight, health);
     }
-
-
-
+    /**
+     * Перегруженный метод озвучивания голоса животного
+     * @return возвращает голос животного типом String
+     */
     @Override
     public String voice() {return "Гав, Гав";}
 
